@@ -1,0 +1,48 @@
+[2025-11-18 18:01:01] [INFO] TestCases.TC_001_Login - Local Chrome browser launched successfully.
+[2025-11-18 18:01:05] [INFO] TestCases.TC_001_Login - Browser window maximized, cookies cleared, navigated to: https://dev1.nexttrialai.com
+[2025-11-18 18:01:05] [INFO] TestCases.TC_001_Login - Starting login test for user: janedoe
+[2025-11-18 18:01:06] [INFO] TestCases.TC_001_Login - Valid login successful for: janedoe
+[2025-11-18 18:01:06] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\Login_janedoe_PASS_20251118180106.png
+[2025-11-18 18:01:08] [INFO] TestCases.TC_001_Login - Session reset: cookies cleared and page refreshed.
+[2025-11-18 18:01:08] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASSED_20251118180108.png
+[2025-11-18 18:01:08] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASS_20251118180108.png
+[2025-11-18 18:01:08] [INFO] TestCases.TC_001_Login - Test PASS: loginTest, screenshot saved at: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASS_20251118180108.png
+[2025-11-18 18:01:08] [INFO] TestCases.TC_001_Login - Starting login test for user: janedoe
+[2025-11-18 18:01:09] [INFO] TestCases.TC_001_Login - Invalid login handled correctly for: janedoe
+[2025-11-18 18:01:09] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\Login_janedoe_PASS_20251118180109.png
+[2025-11-18 18:01:09] [INFO] TestCases.TC_001_Login - Session reset: cookies cleared and page refreshed.
+[2025-11-18 18:01:10] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASSED_20251118180109.png
+[2025-11-18 18:01:10] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASS_20251118180110.png
+[2025-11-18 18:01:10] [INFO] TestCases.TC_001_Login - Test PASS: loginTest, screenshot saved at: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASS_20251118180110.png
+[2025-11-18 18:01:10] [INFO] TestCases.TC_001_Login - Starting login test for user: wronguser
+[2025-11-18 18:01:10] [INFO] TestCases.TC_001_Login - Invalid login handled correctly for: wronguser
+[2025-11-18 18:01:11] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\Login_wronguser_PASS_20251118180110.png
+[2025-11-18 18:01:11] [INFO] TestCases.TC_001_Login - Session reset: cookies cleared and page refreshed.
+[2025-11-18 18:01:12] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASSED_20251118180111.png
+[2025-11-18 18:01:12] [INFO] TestCases.TC_001_Login - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASS_20251118180112.png
+[2025-11-18 18:01:12] [INFO] TestCases.TC_001_Login - Test PASS: loginTest, screenshot saved at: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\loginTest_PASS_20251118180112.png
+[2025-11-18 18:01:12] [INFO] TestCases.TC_001_Login - Closing the browser.
+[2025-11-18 18:01:12] [INFO] TestCases.TC_001_Login - ========== Test Execution Completed ==========
+[2025-11-18 18:01:12] [INFO] TestCases.TC_002_createUser - ========== Starting Test Setup ==========
+[2025-11-18 18:01:12] [INFO] TestCases.TC_002_createUser - Loaded configuration file successfully.
+[2025-11-18 18:01:13] [INFO] TestCases.TC_002_createUser - Local Chrome browser launched successfully.
+[2025-11-18 18:01:16] [INFO] TestCases.TC_002_createUser - Browser window maximized, cookies cleared, navigated to: https://dev1.nexttrialai.com
+[2025-11-18 18:01:16] [INFO] TestCases.TC_002_createUser - ===== Starting Login for user: janedoe =====
+[2025-11-18 18:01:17] [INFO] TestCases.TC_002_createUser - Login successful for user: janedoe
+[2025-11-18 18:01:17] [INFO] TestCases.TC_002_createUser - ===== Starting User Creation for: testuser18 =====
+[2025-11-18 18:01:20] [INFO] PageObjects.UsersPage - User is Active
+[2025-11-18 18:01:30] [WARN] PageObjects.UsersPage - No success snackbar detected within timeout: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='notistack-snackbar' and (contains(., 'created successfully') or contains(., 'updated successfully'))]"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-4DTQDLK', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b56bd10a2a04bed80942d35ddc5d8b, findElement {using=xpath, value=//div[@id='notistack-snackbar' and (contains(., 'created successfully') or contains(., 'updated successfully'))]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\SANJAY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53309}, goog:processID: 13360, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53309/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b56bd10a2a04bed80942d35ddc5d8b
+[2025-11-18 18:01:30] [INFO] TestCases.TC_002_createUser - Screenshot captured: C:\Users\SanjayKumarMahapatra\eclipse-workspace\APS_DEV1\screenshots\CreateUser_testuser18_FAIL_20251118180130.png
+[2025-11-18 18:01:30] [ERROR] TestCases.TC_002_createUser - ❌ Failure during Login or User Creation for: testuser18
+[2025-11-18 18:01:30] [ERROR] TestCases.TC_002_createUser - Reason: User creation failed for: testuser18 expected [true] but found [false]
+[2025-11-18 18:01:31] [INFO] TestCases.TC_002_createUser - Session reset for next iteration.
+[2025-11-18 18:01:31] [INFO] TestCases.TC_002_createUser - Closing the browser.
+[2025-11-18 18:01:31] [INFO] TestCases.TC_002_createUser - ========== Test Execution Completed ==========

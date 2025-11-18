@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" verbose="1">
+
+    <listeners>
+        <listener class-name="Utility.ExtentReportManager"/>
+        <listener class-name="Listeners.TestListener"/>
+    </listeners>
+
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="QA"/>
+
+    <test name="RegressionSuite">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+
+        <classes>
+         <class name="TestCases.TC_001_Login"/> 
+          <class name="TestCases.TC_002_createUser"/>
+        </classes>
+    </test>
+
+</suite>
